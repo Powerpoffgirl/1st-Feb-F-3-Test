@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+body{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.mainConatiner{
+    display: flex;
+    flex-direction: column;
+}
+
+.topConatiner{
+    background-color: white;
+    padding-left: 2vw;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+}
+
+h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: xxx-large;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column
+}
+
+input{
+    width:92vw;
+    height: 5vh;
+    padding-left: 1vw;
+    background-color:#1E1E1E;
+    border: 1px solid #FFFFFF;
+    color:#FFFFFF;
+}
+
+button{
+    margin-top: 3vh;
+    width: 10vw;
+    height: 5vh;
+    background-color: #FFFFFF;
+    border-radius: 0px;
+}
+
+#container{
+    border: 1px solid #1E1E1E;
+    width:90vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    gap:5vh;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    padding: 2vw;
+}
+
+#container1{
+        border: 1px solid #FFFFFF;
+        width:90vw;
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        gap:5vh;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        padding: 2vw;
+}
+
+.location{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* gap: 40vw; */
+}
+
+.bottomContainer{
+    background-color:#1E1E1E;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vw;
+    padding-bottom: 20vh;
+    padding-top: 5vh;
+}
+
+#resultContainer{
+    visibility: hidden;
+}
+
+#errorId{
+    color:#E84444;
+    visibility: hidden;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+}

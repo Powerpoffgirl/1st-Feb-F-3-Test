@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>1st Feb F3 Test</title>
+</head>
+<body>
+    <div class="mainConatiner">
+        <div class="topConatiner">
+            <form>
+                <h1>TimeZone API</h1>
+                <h1>Your Current Time Zone</h1>
+            </form>
+            <div id="container" class="addressContainer">
+                <span>Name Of Time Zone : <span id="nameTZ"></span> </span>
+                <div class="location"> <span>Lat : <span id="lat"></span></span> <span>Long : <span id="long"></span></span></div>
+                <span>Offset STD : <span id="offsetSTD"></span></span>
+                <span>Offset STD Seconds : <span id="offsetSTDSeconds"></span></span>
+                <span>Offset DST : <span id="offsetDST"></span></span>
+                <span>Offset DST Seconds : <span id="offsetDSTSeconds"></span></span>
+                <span>Country : <span id="country"></span></span>
+                <span>Postcode : <span id="postcode"></span></span>
+                <span>City : <span id="city"></span></span>
+            </div>
+        </div>
+        <div class="bottomContainer">
+            <form>
+                <h1>Enter Address</h1>
+                <div class="inputContainer">
+                    <input id="address" type="text" placeholder="Address"/>
+                    <button id="button">Submit</button>
+                </div>
+            </form>
+            <div id="resultContainer" class="addressContainer"> 
+                <p id="errorId"></p>
+                <h1>Your result</h1>
+                <div id="container1"> 
+                    <span>Name Of Time Zone : <span id="resultnameTZ"></span> </span>
+                    <div class="location"> <span>Lat : <span id="resultlat"></span></span> <span>Long : <span id="resultlong"></span></span></div>
+                    <span>Offset STD : <span id="resultoffsetSTD"></span></span>
+                    <span>Offset STD Seconds : <span id="resultoffsetSTDSeconds"></span></span>
+                    <span>Offset DST : <span id="resultoffsetDST"></span></span>
+                    <span>Offset DST Seconds : <span id="resultoffsetDSTSeconds"></span></span>
+                    <span>Country : <span id="resultcountry"></span></span>
+                    <span>Postcode : <span id="resultpostcode"></span></span>
+                    <span>City : <span id="resultcity"></span></span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
